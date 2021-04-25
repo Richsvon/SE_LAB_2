@@ -13,7 +13,5 @@
             </font></Text>
         <Button layoutX="88.0" layoutY="127.0" mnemonicParsing="false" onAction="#CheckBalanceButtonOnAction" prefHeight="26.0" prefWidth="150.0" text="Check Balance" />
         <Button layoutX="88.0" layoutY="249.0" mnemonicParsing="false" onAction="#WithdrawButtonOnAction" prefHeight="26.0" prefWidth="150.0" text="Withdraw" />
-      <Label fx:id="balanceLabel" layoutX="254.0" layoutY="127.0" prefHeight="26.0" prefWidth="150.0" />
-      <Label fx:id="withdrawLabel" layoutX="254.0" layoutY="249.0" prefHeight="26.0" prefWidth="150.0" />
     </children>
 </AnchorPane>
