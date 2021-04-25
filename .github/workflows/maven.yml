@@ -22,5 +22,6 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
     - name: Test with Maven
-      run: javac src/main/java/org/example/AccountManagement.java
-      run: javac src/test/java/org/example/AccountManagementTest.java
+      run: |
+          javac src/main/java/org/example/AccountManagement.java
+          javac src/test/java/org/example/AccountManagementTest.java
