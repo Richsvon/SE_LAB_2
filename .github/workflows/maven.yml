@@ -22,6 +22,4 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
     - name: Test with Maven
-      run: |
-          mvn -B package --file src/main/java/org/example/AccountManagement.java
-          mvn -B package --file src/test/java/org/example/AccountManagementTest.java
+      run: mvn -B package --file pom.xml
