@@ -23,5 +23,5 @@ jobs:
         distribution: 'adopt'
     - name: Test with Maven
       run: |
-          mvn compile src/main/java/org/example/AccountManagement.java
-          mvn compile src/test/java/org/example/AccountManagementTest.java
+          mvn -B package --file src/main/java/org/example/AccountManagement.java
+          mvn -B package --file src/test/java/org/example/AccountManagementTest.java
